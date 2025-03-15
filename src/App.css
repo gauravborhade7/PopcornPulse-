@@ -1,0 +1,44 @@
+.trending-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.movies-grid {
+  display: flex;
+  /* flex-direction: column; */
+  flex-flow: row wrap;
+  gap: 100px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.movie-card {
+  background-color: #222;
+  color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  text-align: center;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 2px solid #fff;
+}
+
+.movie-card h3 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.movie-card p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

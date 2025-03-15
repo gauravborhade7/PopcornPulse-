@@ -1,0 +1,27 @@
+.movie-details-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #615353;
+    color: white;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+  }
+  
+  .movie-poster {
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  
+  .movie-info h1 {
+    margin-bottom: 10px;
+  }
+  
+  .movie-info p {
+    margin: 5px 0;
+  }
+  
